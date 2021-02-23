@@ -1,0 +1,43 @@
+body{
+    font-family: 'Amatic SC', cursive;
+    background-color: #7ECDC7;
+}
+
+.navbar{
+    display:flex;
+}
+
+.nav-logo{
+    width: 60px;
+    margin-left:30px;
+}
+
+.navbar-item .active{
+    color:#096d65
+}
+.navbar-link{
+    font-size:35px;
+    font-weight: bold;
+    margin-right: 50px;
+    text-decoration: none;
+    color:#7ECDC7;
+    font-family: 'Poiret One', cursive;
+
+}
+
+.navbar-link:hover{
+    color:#7ECDC7;
+    padding-bottom: 4px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid
+
+
+}
+
+.navbar-collapse{
+    margin-left: 50px;
+}
+
+.navbar-nav{
+    margin-left:auto ;
+}
