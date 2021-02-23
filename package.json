@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "deploy": "gh-pages -d dist"
+
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "homepage": "https://github.com/RitaSilva28/locally#readme",
   "devDependencies": {
     "css-loader": "^5.0.2",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^5.2.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.24.0",
